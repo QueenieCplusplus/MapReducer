@@ -14,7 +14,7 @@ Hadoop 運算架構 Divide & Conquer 分而治之
                                                                   \
                                                                    \
                                 z                               Tasks Reducer
-   
+                             Tasks Mapper
 
 
 * Map 映射
