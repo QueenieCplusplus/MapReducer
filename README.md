@@ -6,9 +6,9 @@ Hadoop 運算架構 Divide & Conquer 分而治之
          HDFS          Map ->  spill ->  Shuffle, copy and sort -> Reduce   ->   HDFS
 
 
-         split1                                                              part1
-         split2                                                              part2
-         split3                                                              part3
+         split1                                                                part1
+         split2                                                                part2
+         split3                                                                part3
   
   
 * Split 將輸入的資料劃分成同等長度的小資料區塊 chunk -> split
