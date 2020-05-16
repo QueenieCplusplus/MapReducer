@@ -10,14 +10,12 @@ Hadoop 運算架構 Divide & Conquer 分而治之
          split2                                                              part2
          split3                                                              part3
   
+  
+* Split 將輸入的資料劃分成同等長度的小資料區塊 chunk -> split
+
+* Shuddle 洗牌，指把 Map 的輸出匯入到 Reduce 的程式的過渡期。
 
 傳統的運算架構是集中處理，而現在未來趨勢相反，是將運算作為工作分散（發送）到儲存的資料上，然而這項技術很需要快速的網路 ～
-
-* Map 工作節點對本機資料應用了 map() 函數
-
-* Shuffle 重新分配
-
-* Reduce 所有節點同時處理資料組
 
 
 
@@ -31,6 +29,14 @@ Hadoop 運算架構 Divide & Conquer 分而治之
                                                                    \
                                 z                               Tasks Reducer
                              Tasks Mapper
+                             
+* Map 工作節點對本機資料應用了 map() 函數
+
+* Shuffle 重新分配
+
+* Reduce 所有節點同時處理資料組                          
+                             
+-------------------------------------------------                             
 
 
 * Map 映射
