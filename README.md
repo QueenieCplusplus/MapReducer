@@ -1,5 +1,9 @@
 # MapReducer
-Hadoop 運算架構 Divide & Conquer 分而治之
+
+Hadoop 運算架構 Divide & Conquer 分而治之！
+
+運算框架請詳見 Spark (可使用 Python)，
+單純使用 Hadoop 則是僅支援 Java 和 C。
 
 
 
