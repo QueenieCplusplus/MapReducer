@@ -1,6 +1,16 @@
 # MapReducer
 Hadoop 運算架構 Divide & Conquer 分而治之
 
+
+
+         HDFS          Map ->  spill ->  Shuffle ->  copy sort  Reduce   ->   HDFS
+
+
+         split1                                                              part1
+         split2                                                              part2
+         split3                                                              part3
+  
+
 傳統的運算架構是集中處理，而現在未來趨勢相反，是將運算作為工作分散（發送）到儲存的資料上，然而這項技術很需要快速的網路 ～
 
 * Map 工作節點對本機資料應用了 map() 函數
