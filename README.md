@@ -5,9 +5,13 @@ Hadoop 運算架構 Divide & Conquer 分而治之
 
 * Map 映射
 
+利用映射產生列表
+
       Map(k1, v1) -> list(k2, v2)
 
 * Reducer 減化
+
+利用 Key Value 放到多個 node 中用撰寫的 Reducer 操作處理，歸併成一列表。
 
       Reduce(k2, list(v2)) -> list(v3)
 
