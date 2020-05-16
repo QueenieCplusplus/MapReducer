@@ -3,7 +3,7 @@ Hadoop 運算架構 Divide & Conquer 分而治之
 
 
 
-         HDFS          Map ->  spill ->  Shuffle ->  copy sort  Reduce   ->   HDFS
+         HDFS          Map ->  spill ->  Shuffle, copy and sort -> Reduce   ->   HDFS
 
 
          split1                                                              part1
