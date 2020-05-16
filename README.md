@@ -5,10 +5,14 @@ Hadoop 運算架構 Divide & Conquer 分而治之
 
 * Map 映射
 
+      Map(k1, v1) -> list(k2, v2)
+
 * Reducer 減化
+
+      Reduce(k2, list(v2)) -> list(v3)
 
 * DataLocalization 資料在地化
 
-將分散於節點上的資料，就近處理，就是資料在地化處理（或稱資料當地語系化）。
+      將分散於節點上的資料，就近處理，就是資料在地化處理（或稱資料當地語系化）。
 
 
